@@ -1,6 +1,6 @@
 # Real-Time Live Support Application - Demo
 
-Bu proje, **WebSocket** kullanarak gerçek zamanlı canlı destek sağlayan bir sohbet uygulamasıdır. Uygulama, dinamik bir arayüz üzerinden kullanıcılarla etkileşime geçer ve sağlanan JSON yapısına göre düğmeler ve mesajlar oluşturur. Uygulama, modern Android geliştirme teknolojileri ile **MVVM Clean Architecture** yapısını takip eder.
+Bu proje, **WebSocket** kullanarak gerçek zamanlı canlı destek sağlayan bir sohbet uygulamasıdır. Uygulama, dinamik bir arayüz üzerinden kullanıcılarla etkileşime geçer ve sağlanan JSON yapısına göre butonlar ve mesajları oluşturur. Uygulama, modern Android geliştirme teknolojileri ile **MVVM Clean Architecture** yapısını takip eder.
 
 ## 🚀 Özellikler
 
