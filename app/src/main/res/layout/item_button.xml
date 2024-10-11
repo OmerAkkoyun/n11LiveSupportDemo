@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<com.google.android.material.button.MaterialButton xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/buttonItem"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginHorizontal="12dp"
+    android:layout_marginBottom="2dp"
+    tools:text="Kuponumu nasıl kullanacağım?"
+    android:textColor="@color/user_chat_bg"
+    android:fontFamily="@font/asap_medium"
+    app:backgroundTint="#F6F0FB"
+    app:cornerRadius="10dp"
+    app:strokeColor="#D2CDDB"
+    app:strokeWidth="1dp" />

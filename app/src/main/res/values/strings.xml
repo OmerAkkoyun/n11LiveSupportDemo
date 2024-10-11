@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">n11LiveSupportDemo</string>
+    <string name="error_title">Bir Hata Oluştu</string>
+    <string name="close">Kapat</string>
+    <string name="live_support">Canlı Destek</string>
+    <string name="chat_ended">Görüşme Sonlandı</string>
+    <string name="asking_live_support_again">Canlı destek hizmetine yeniden bağlanmak istiyor musunuz?</string>
+    <string name="welcome_text">n11 Canlı Desteğe Hoşgeldin</string>
+
+    <string name="start_live_support">Başlat</string>
+</resources>

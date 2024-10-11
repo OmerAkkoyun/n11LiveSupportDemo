@@ -1,0 +1,26 @@
+{
+  "step": "step_1",
+  "type": "button",
+  "content": {
+    "text": "Merhaba, canlı destek hattına hoş geldiniz! Hangi konuda yardım almak istersiniz?",
+    "buttons": [
+      {
+        "label": "İade işlemi",
+        "action": "step_2"
+      },
+      {
+        "label": "Sipariş durumu",
+        "action": "step_3"
+      },
+      {
+        "label": "Ürün rehberi",
+        "action": "step_4"
+      },
+      {
+        "label": "Sohbeti bitir",
+        "action": "end_conversation"
+      }
+    ]
+  },
+  "action": "await_user_choice"
+}

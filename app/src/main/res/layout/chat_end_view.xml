@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/frmChatEndContainer"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#99000000"
+    android:clickable="true"
+    android:focusable="true"
+    android:visibility="visible"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toTopOf="parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginHorizontal="40dp"
+        android:background="@drawable/white_corner_bg"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:visibility="visible"
+            android:id="@+id/tvErrorTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:fontFamily="@font/asap_medium"
+            android:gravity="center"
+            android:text="Uyarı"
+            android:textAlignment="center"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/tvErrorValue"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/asap_reqular"
+            android:gravity="center"
+            android:paddingHorizontal="20dp"
+            android:text="Canlı destek hizmetini sonlandırmak istediğize emin misiniz?"
+            android:textAlignment="center" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/buttonCloseLiveSupport"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="18dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="10dp"
+            android:fontFamily="@font/asap_medium"
+            android:text="Sohbeti Kapat"
+            android:textColor="@color/white"
+            app:backgroundTint="@color/user_chat_bg"
+            app:cornerRadius="10dp"
+            app:strokeColor="#D2CDDB"
+            app:strokeWidth="1dp" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/buttonContinueLiveSupport"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="18dp"
+            android:layout_marginBottom="12dp"
+            android:fontFamily="@font/asap_medium"
+            android:text="Devam Et"
+            android:textColor="@color/user_chat_bg"
+            app:backgroundTint="#F7F5FA"
+            app:cornerRadius="10dp"
+            app:strokeColor="@color/user_chat_bg"
+            app:strokeWidth="1dp" />
+
+    </LinearLayout>
+
+</FrameLayout>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#66000000"
+    android:clickable="true"
+    android:focusable="true"
+    android:visibility="visible"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toTopOf="parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginHorizontal="40dp"
+        android:background="@drawable/white_corner_bg"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:id="@+id/tvErrorTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:fontFamily="@font/asap_medium"
+            android:gravity="center"
+            android:text="@string/error_title"
+            android:textAlignment="center" />
+
+        <TextView
+            android:id="@+id/tvErrorValue"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:fontFamily="@font/asap_reqular"
+            android:gravity="center"
+            android:paddingHorizontal="20dp"
+            android:textAlignment="center"
+            tools:text="Mesaj Gönderilirken bir hata oluştu. Lütfen tekrar deneyin." />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/buttonClose"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="18dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="12dp"
+            android:fontFamily="@font/asap_medium"
+            android:text="@string/close"
+            android:textColor="@color/user_chat_bg"
+            app:backgroundTint="#F6F0FB"
+            app:cornerRadius="10dp"
+            app:strokeColor="#D2CDDB"
+            app:strokeWidth="1dp" />
+
+    </LinearLayout>
+</FrameLayout>
