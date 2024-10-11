@@ -35,7 +35,7 @@ Bu proje, **MVVM Clean Architecture** mimarisini takip eder. Bu mimari, uygulama
 
 ![Screenshot_1728661011](https://github.com/user-attachments/assets/f8957e36-683b-4e74-ada5-ee6751af16f7)
 ![Screenshot_1728577950](https://github.com/user-attachments/assets/536128e2-2ee3-43ff-8c56-e36e62ea1587)
-![Screenshot_1728577889](https://github.com/user-attachments/assets/9e1eb32d-ea20-4515-a369-dca82279d9c0)
+![Screenshot_1728661804](https://github.com/user-attachments/assets/e1ed7ea7-ea5f-47f7-a98f-91ef4420c77e)
 ![Screenshot_1728577883](https://github.com/user-attachments/assets/f0660900-3906-463e-80d3-e818832f7dd2)
 ![Screenshot_1728577868](https://github.com/user-attachments/assets/73d4087c-1612-46d4-a607-9711f340f0be)
 ![Screenshot_1728578045](https://github.com/user-attachments/assets/24f9446e-26d4-48e9-a304-56e430948daf)
